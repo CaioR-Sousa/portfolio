@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1e1b4b, #030712);
+    font-family: "Inter", serif;
+}
+
+/*Cabeçalho*/
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0px 24px;
+}
+
+nav {
+    display: flex;
+    padding: 40px;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d1d5db;
+    font-size: 1.3rem;
+    transition: 0.3s ease;
+    position: relative;
+}
+
+nav a:hover {
+    color: #22d3ee;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+
+    left: 0;
+    bottom: -4px;
+
+    width: 0px;
+    height: 2px;
+
+    background: #22d3ee;
+    transition: 0.3s;
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+/*Fim Cabeçalho */
+
+/*Cards*/
+
+.projetos {
+    max-width: 1300px;
+    margin: 50px auto;
+    padding: 0 24px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 30px;
+}
+
+.card-projeto {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, .08);
+    border-radius: 16px;
+    padding: 20px;
+    transition: .3s;
+    overflow: hidden;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, .30);
+}
+
+.card-projeto:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .35);
+}
+
+.card-projeto h2 {
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+    color: #d1d5db;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+
+.card-projeto img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    transition: transform .3s,
+        box-shadow .3s ease;
+}
+
+.card-projeto:hover img {
+    transform: scale(1.05);
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+    transition:
+        background-color .3s ease,
+        color .3s ease,
+        transform .3s ease;
+
+}
+
+#github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-projeto a {
+    text-decoration: none;
+    flex: 1;
+    padding: 14px;
+    border-radius: 10px;
+    background: #1e1b4b;
+    color: #FFF;
+    font-weight: 600;
+    transition: .3s;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card-projeto a:hover {
+    background: #22d3ee;
+    color: #030712;
+    transform: scale(1.03);
+}
+
+/*Fim Cards*/
+
+/*Modal*/
+
+.modal {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, .6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.oculto {
+    display: none;
+}
+
+.conteudo-modal {
+    width: 90%;
+    max-width: 600px;
+    background: #1e1b4b;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+    animation: aparecer .25s ease;
+}
+
+.conteudo-modal h2 {
+    margin-bottom: 20px;
+}
+
+.conteudo-modal p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.conteudo-modal ul {
+    margin-left: 20px;
+}
+
+.conteudo-modal li {
+    margin-bottom: 10px;
+}
+
+#fechar {
+    display: block;
+    margin: 20px auto 0;
+    padding: 14px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #22d3ee;
+    color: #030712;
+
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#fechar:hover {
+    transform: scale(1.05);
+}
+
+@keyframes aparecer{
+
+    from{
+        opacity:0;
+        transform:scale(.9);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+
+}
+
+/*Fim Modal*/

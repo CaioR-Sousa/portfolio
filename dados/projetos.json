@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "nome": "Agenda de Contatos",
+        "descricao": "Aplicação desenvolvida para gerenciar contatos de forma simples e intuitiva. Permite cadastrar, editar, excluir e pesquisar contatos, mantendo as informações salvas no navegador por meio do LocalStorage.",
+        "funcionalidades": [
+            "Cadastro de contatos",
+            "Edição de contatos",
+            "Exclusão de contatos",
+            "Pesquisa por nome",
+            "Armazenamento com LocalStorage"
+        ]
+    },
+    {
+        "id": 2,
+        "nome": "Landing Page - Cafeteria",
+        "descricao": "Landing page responsiva criada para uma cafeteria fictícia, com foco em design moderno, boa experiência do usuário e navegação intuitiva.",
+        "funcionalidades": [
+            "Layout responsivo",
+            "Menu para dispositivos móveis",
+            "Carrossel de depoimentos",
+            "Botão de retorno ao topo",
+            "Rolagem suave entre seções"
+        ]
+    },
+    {
+        "id": 3,
+        "nome": "Previsão do Tempo",
+        "descricao": "Aplicação que consulta uma API de previsão do tempo e exibe informações atualizadas de diferentes cidades em tempo real.",
+        "funcionalidades": [
+            "Busca por cidade",
+            "Consumo de API",
+            "Temperatura atual",
+            "Umidade do ar",
+            "Velocidade do vento",
+            "Ícones representando o clima"
+        ]
+    },
+    {
+        "id": 4,
+        "nome": "Lista de Afazeres",
+        "descricao": "Aplicação para organização de tarefas diárias, permitindo adicionar, concluir e remover atividades, com armazenamento local dos dados.",
+        "funcionalidades": [
+            "Adicionar tarefas",
+            "Marcar tarefas como concluídas",
+            "Excluir tarefas",
+            "Persistência com LocalStorage"
+        ]
+    },
+    {
+        "id": 5,
+        "nome": "Gerenciador de Tarefas",
+        "descricao": "Sistema para gerenciamento de tarefas com foco em produtividade, permitindo acompanhar o andamento das atividades de maneira organizada.",
+        "funcionalidades": [
+            "Cadastro de tarefas",
+            "Edição de tarefas",
+            "Remoção de tarefas",
+            "Alteração do status",
+            "Armazenamento com LocalStorage"
+        ]
+    },
+    {
+        "id": 6,
+        "nome": "Controle de Despesas",
+        "descricao": "Aplicação para controle financeiro pessoal, permitindo registrar despesas, calcular totais e acompanhar os gastos de forma prática.",
+        "funcionalidades": [
+            "Cadastro de despesas",
+            "Remoção de despesas",
+            "Cálculo automático do total",
+            "Persistência dos dados",
+            "Interface responsiva"
+        ]
+    },
+    {
+        "id": 7,
+        "nome": "Flappy Bird",
+        "descricao": "Recriação do clássico jogo Flappy Bird utilizando HTML, CSS e JavaScript, com movimentação do personagem, geração de obstáculos e sistema de pontuação.",
+        "funcionalidades": [
+            "Movimentação do personagem",
+            "Obstáculos animados",
+            "Contador de pontos",
+            "Reinício da partida"
+        ]
+    }
+]
