@@ -18,6 +18,10 @@ body {
     padding: 0px 24px;
 }
 
+.container .img {
+    width: 20%;
+}
+
 nav {
     display: flex;
     padding: 40px;
@@ -230,3 +234,11 @@ nav a:hover::after {
 }
 
 /*Fim Modal*/
+
+/*Responsividade*/
+
+@media (max-width:768px) {
+ .card-projeto h2 {
+        margin-bottom: 20px;
+    }
+}

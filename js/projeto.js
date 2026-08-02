@@ -23,7 +23,7 @@ botoes.forEach(botao => {
 
 async function carregarProjetos() {
 
-    const resposta = await fetch("dados/projetos.json");
+    const resposta = await fetch("../dados/projetos.json");
 
     projetos = await resposta.json();
 
