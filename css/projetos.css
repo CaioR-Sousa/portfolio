@@ -18,9 +18,6 @@ body {
     padding: 0px 24px;
 }
 
-.container .img {
-    width: 20%;
-}
 
 nav {
     display: flex;
@@ -61,6 +58,30 @@ nav a::after {
 
 nav a:hover::after {
     width: 100%;
+}
+
+.cabecalho-projetos {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.cabecalho-projetos h1 {
+    color: #d1d5db;
+    margin-bottom: 16px;
+    font-size: 2.5rem;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+.cabecalho-projetos p {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #9ca3af;
+
+    max-width: 650px;
+    margin: 0 auto;
+
+    line-height: 1.7;
 }
 
 /*Fim Cabeçalho */
@@ -121,10 +142,6 @@ nav a:hover::after {
     display: flex;
     gap: 12px;
     margin-top: 15px;
-    transition:
-        background-color .3s ease,
-        color .3s ease,
-        transform .3s ease;
 
 }
 
@@ -162,6 +179,7 @@ nav a:hover::after {
     inset: 0;
 
     background: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(6px);
 
     display: flex;
     justify-content: center;
@@ -217,18 +235,19 @@ nav a:hover::after {
 
 #fechar:hover {
     transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(34, 211, 238, .25);
 }
 
-@keyframes aparecer{
+@keyframes aparecer {
 
-    from{
-        opacity:0;
-        transform:scale(.9);
+    from {
+        opacity: 0;
+        transform: scale(.9);
     }
 
-    to{
-        opacity:1;
-        transform:scale(1);
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 
 }
@@ -238,7 +257,7 @@ nav a:hover::after {
 /*Responsividade*/
 
 @media (max-width:768px) {
- .card-projeto h2 {
+    .card-projeto h2 {
         margin-bottom: 20px;
     }
 }

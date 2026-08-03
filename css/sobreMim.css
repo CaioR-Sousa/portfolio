@@ -84,12 +84,18 @@ main {
     animation: aparecer .8s forwards;
 }
 
+
 .texto h2 {
     font-family: "Playfair Display", serif;
     text-align: center;
     color: #d1d5db;
     font-size: 2rem;
-    margin-bottom: 20px;
+}
+
+.texto #subtitulo {
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
 }
 
 .texto p {
@@ -97,7 +103,7 @@ main {
     color: #d1d5db;
     font-weight: 400;
     font-size: 1.2rem;
-    letter-spacing: 1.3px;
+    letter-spacing: .3px;
     max-width: 650px;
     padding: 20px 0;
     margin: 0 auto;
@@ -111,10 +117,59 @@ main {
     height: auto;
 
     filter: drop-shadow(0 0 25px rgba(34, 211, 238, 0.25));
+    transition: .4s ease;
+}
+
+.sobreMim img:hover {
+
+    transform: translateY(-6px);
 
 }
 
 /*Fim Sobre Mim*/
+
+/*Curriculo*/
+
+.acoes {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.acoes a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 32px;
+
+    border: 2px solid #22d3ee;
+    border-radius: 10px;
+
+    color: #22d3ee;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: .5px;
+
+    transition: all .3s ease;
+}
+
+.acoes a:hover {
+    background: #22d3ee;
+    color: #030712;
+
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(34, 211, 238, .25);
+}
+
+/*Fim Curriculo*/
+
+.divisor {
+    width: 80px;
+    height: 4px;
+    background: #22d3ee;
+    margin: 80px auto;
+    border-radius: 999px;
+}
 
 /*Tecnologias*/
 
@@ -122,7 +177,7 @@ main {
     margin-top: 120px;
     opacity: 0;
     transform: translateY(30px);
-    animation: aparecer .8s forwards;
+    animation: aparecer .8s .3s forwards;
 }
 
 .tecnologias h2 {
@@ -173,7 +228,7 @@ main {
 }
 
 .card:hover {
-    transform: translateY(-8px);
+    transform: translateY(-8px) scale(1.02);
     box-shadow: 0 12px 30px rgba(0, 0, 0, .35);
 }
 
@@ -201,6 +256,7 @@ main {
 
 /*Fim Tecnologias*/
 
+
 /*Responsividade*/
 
 @media (max-width: 992px) {
@@ -227,7 +283,7 @@ main {
     .sobreMim img {
         width: 280px;
         order: -1;
-       ;
+        ;
     }
 
     .cards {
