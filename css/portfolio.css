@@ -133,13 +133,23 @@ main {
     }
 
     .hero {
+        flex-direction: column;
         text-align: center;
         padding: 20px;
         gap: 20px;
     }
 
-    .hero-img img {
-        max-width: 220px;
+    .hero-text {
+        order: 1;
+    }
+
+    .nome {
+        display: flex;
+    }
+
+    .hero-img {
+        order: -1;
+        width: 300px;
     }
 
 }

@@ -81,5 +81,28 @@
             "Contador de pontos",
             "Reinício da partida"
         ]
+    },
+
+    {
+        "id": 8,
+        "titulo": "Jogo da Velha",
+        "descricao": "Implementação do clássico Jogo da Velha utilizando HTML, CSS e JavaScript puro, com lógica para detectar vitórias, empates e reiniciar a partida.",
+        "imagem": "assets/img/projetos/jogo-da-velha.png",
+        "tecnologias": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "funcionalidades": [
+            "Alternância automática entre os jogadores (X e O)",
+            "Verificação de vitória em linhas, colunas e diagonais",
+            "Detecção de empate",
+            "Botão para reiniciar a partida",
+            "Interface responsiva",
+            "Atualização dinâmica do estado do jogo"
+        ],
+        "github": "https://github.com/caio5511/jogo-da-velha",
+        "demo": "https://caio5511.github.io/jogo-da-velha/",
+        "status": "Concluído"
     }
 ]
