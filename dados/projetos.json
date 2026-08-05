@@ -116,5 +116,23 @@
             "Interface responsiva",
             "Resultado exibido com duas casas decimais"
         ]
+    },
+    {
+        "id": 10,
+        "titulo": "Pedido de Namoro Interativo",
+        "descricao": "Uma aplicação web divertida desenvolvida com HTML, CSS e JavaScript. O botão 'Não' foge do cursor sempre que o usuário tenta clicar, enquanto o botão 'Sim' leva para uma página especial com flores e uma mensagem romântica.",
+        "tecnologias": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
+        ],
+        "funcionalidades": [
+            "Botão 'Não' que foge do cursor utilizando eventos do mouse",
+            "Botão 'Sim' que redireciona para uma página especial",
+            "Página final com flores e mensagem personalizada",
+            "Interface responsiva",
+            "Animações e transições em CSS",
+            "Manipulação dinâmica do DOM com JavaScript"
+        ]
     }
 ]
