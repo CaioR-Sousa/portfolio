@@ -82,12 +82,10 @@
             "Reinício da partida"
         ]
     },
-
     {
         "id": 8,
         "titulo": "Jogo da Velha",
         "descricao": "Implementação do clássico Jogo da Velha utilizando HTML, CSS e JavaScript puro, com lógica para detectar vitórias, empates e reiniciar a partida.",
-        "imagem": "assets/img/projetos/jogo-da-velha.png",
         "tecnologias": [
             "HTML5",
             "CSS3",
@@ -100,9 +98,23 @@
             "Botão para reiniciar a partida",
             "Interface responsiva",
             "Atualização dinâmica do estado do jogo"
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Calculadora de IMC",
+        "descricao": "Aplicação desenvolvida para calcular o Índice de Massa Corporal (IMC) a partir do peso e da altura informados pelo usuário, exibindo a classificação correspondente conforme os padrões da OMS.",
+        "tecnologias": [
+            "HTML5",
+            "CSS3",
+            "JavaScript"
         ],
-        "github": "https://github.com/caio5511/jogo-da-velha",
-        "demo": "https://caio5511.github.io/jogo-da-velha/",
-        "status": "Concluído"
+        "funcionalidades": [
+            "Cálculo automático do IMC",
+            "Validação dos campos de entrada",
+            "Classificação do resultado (Abaixo do peso, Normal, Sobrepeso e Obesidade)",
+            "Interface responsiva",
+            "Resultado exibido com duas casas decimais"
+        ]
     }
 ]
