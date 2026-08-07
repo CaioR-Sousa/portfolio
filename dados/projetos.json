@@ -134,5 +134,15 @@
             "Animações e transições em CSS",
             "Manipulação dinâmica do DOM com JavaScript"
         ]
-    }
+    },
+
+    {
+    "nome": "Cronômetro",
+    "descricao": "Cronômetro desenvolvido com HTML, CSS e JavaScript, com funcionalidades de iniciar, pausar, reiniciar e registrar voltas.",
+    "tecnologias": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+    ]
+}
 ]
